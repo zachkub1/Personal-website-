@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url('back.jpg');
+}
+.background-image
+{
+    width:100%;
+}
+
+main
+{
+    width: 100%;
+    background-color: #4c4c4c;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon
+{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+.logo
+{
+    width: 300px;
+    color: blue;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu
+{
+    margin-left: 200px;
+    width: 700px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li
+{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a
+{
+  text-decoration: none;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  transition: 0,4s ease-in-out;
+}
+
+ul li a:hover
+{
+  color: grey;
+}
+
+.content
+{
+  bottom: 125px;
+    width:1200px;
+    height: 75px;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+
+.content .par
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.circle-container 
+{
+    position:absolute;
+    top: 15%;
+    right: -800px;
+    width: 350px; 
+    height: 350px; 
+    background-color: #030303; 
+    border-radius: 50%; 
+    margin-right: 1200px;
+    overflow: hidden; 
+}
+
+.circle-container img 
+{
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 20px;
+  max-width: none;
+  min-height: 20px;
+  min-width: 30px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus 
+{
+  opacity: .75;
+}
+
+ol {
+    position:absolute;
+    bottom: 200px;
+    left:650px;
+    transform:translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  ol li {
+    list-style:none;
+  }
+  ol li a {
+    display:block;
+    position:relative;
+    width:100px;
+    height:100px;
+    line-height:100px;
+    font-size:40px;
+    text-align:center;
+    text-decoration:none;
+    color:#404040;
+    margin: 0 30px;
+    transition:.5s;
+  }
+  ol li a span {
+    position:absolute;
+    transition: transform .5s;
+  }
+  ol li a span:nth-child(1),
+  ol li a span:nth-child(3){
+    width:100%;
+    height:3px;
+    background:#404040;
+  }
+  ol li a span:nth-child(1) {
+    top:0;
+    left:0;
+    transform-origin: right;
+  }
+  ol li a:hover span:nth-child(1) {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition:transform .5s;
+  }
+  
+  ol li a span:nth-child(3) {
+    bottom:0;
+    left:0;
+    transform-origin: left;
+  }
+  ol li a:hover span:nth-child(3) {
+    transform: scaleX(0);
+    transform-origin: right;
+    transition:transform .5s;
+  }
+  
+  ol li a span:nth-child(2),
+  ol li a span:nth-child(4){
+    width:3px;
+    height:100%;
+    background:#404040;
+  }
+  ol li a span:nth-child(2) {
+    top:0;
+    left:0;
+    transform:scale(0);
+    transform-origin: bottom;
+  }
+  ol li a:hover span:nth-child(2) {
+    transform: scale(1);
+    transform-origin: top;
+    transition:transform .5s;
+  }
+  ol li a span:nth-child(4) {
+    top:0;
+    right:0;
+    transform:scale(0);
+    transform-origin: top;
+  }
+  ol li a:hover span:nth-child(4) {
+    transform: scale(1);
+    transform-origin: bottom;
+    transition:transform .5s;
+  }
+  
+  .linkedin:hover {
+    color: #1da1f2;
+  }
+  .linkedin:hover span { 
+    background: #1da1f2;
+  }
+  .instagram:hover {
+    color: #c32aa3;
+  }
+  .instagram:hover span { 
+    background: #c32aa3;
+  }
+
+  ol li a .linkedin {
+    color: #1da1f2;
+  }
+  ol li a:hover:nth-child(3) {
+    color: #c32aa3;
+  }
+  ol li a:hover:nth-child(4) {
+    color: #dd4b39;
+  }

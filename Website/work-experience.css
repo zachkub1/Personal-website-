@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url('back.jpg');
+}
+.background-image
+{
+    width:100%;
+}
+
+main
+{
+    width: 100%;
+    background-color: #4c4c4c;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon
+{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+.logo
+{
+    width: 1200px;
+    color: blue;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu
+{
+    margin-left: 200px;
+    width: 700px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: 0,4s ease-in-out;
+}
+
+ul li a:hover
+{
+    color: grey;
+}
+
+.content
+{
+    top: -100px;
+    width:1200px;
+    height: 75px;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+
+.content .par
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+

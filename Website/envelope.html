@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Envelope + Letter (Open/Close on Click)</title>
+  <link rel="stylesheet" href="envelope.css">
+</head>
+<body>
+  <div class="container">
+    <div class="envelope-wrapper flap"> <div class="envelope">
+        <div class="letter" style="display: none;"> <div class="text">
+            <strong>Dear LC.</strong>
+            <p>I made this for you hoping that you would like it. It took me over 6 hours to code and edit
+                Its definetyly a step up from the first html site i made you lol. This is our 6th Valentines Day
+                and our love still feels as though we just met. These last 2 years have been difficult for you and 
+                I promise to be here to support you and get through it. I see so much in you that you dont in yourself
+                You are nothing short of a boss, push your limits and reach your full potential. I love you and thank you for 
+                all the support and love that youve always given me, pushing me when i feel down and when the task wasnt
+                easy. I look forward to more with you and till next year babe . xoxo (cant draw a heart lol)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="heart"></div>
+    </div>
+  </div>
+  <script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    const heart = document.querySelector('.heart');
+
+    heart.addEventListener('click', () => {
+      envelope.classList.toggle('flap');
+
+      const letter = document.querySelector('.letter');
+      if (letter.style.display === 'none') {
+        letter.style.display = 'block'; // Show letter instead of changing opacity
+      } else {
+        letter.style.display = 'none'; // Hide letter completely
+      }
+    });
+  </script>
+</body>
+</html>
